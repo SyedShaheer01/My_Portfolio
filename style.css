@@ -395,18 +395,23 @@ form input, form textarea{
 }
 .mypara{
     font-size: 7px;
-    padding-left: 0px;
+    padding-right: 10px;
+    width: 100%;
+    
+}
+.run{
+    margin-left: -15px
 }
 .myimg{
     width: 60px;
     height: 20vh;
     border-radius: 6px;
     margin-top: 30px;
-    margin-right: 10px;
+    margin-left:5px;
 }
 .name div{
     font-size: 8px;
-    margin-right:80px;
+    margin-right:10px;
     margin-top: 1px ;
   margin-bottom: 0px;
   
@@ -440,17 +445,26 @@ form input, form textarea{
 .contact-left p{
     /* margin-top: 200px; */
 
-    font-size: 10px;
+    font-size: 8px;
 }
 form input, form textarea{
-    width: 85%;
+    width: 90%;
+    /* margin-left: -10px; */
+    /* margin-top:40px ; */
+}
+.contact-right{
+margin-left: -10px;
 }
 .row{
     margin-left: -20px;
 }
 .socialicons{
 display: flex;
-margin-left: 30px;    
+margin-left: 30px;
+    
+}
+.socialicons a{
+    font-size: 20px;
 }
 .btn2{
     /* width: 50px; */
