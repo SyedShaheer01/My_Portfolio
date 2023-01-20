@@ -7,19 +7,25 @@
 
 .hero {
     margin: 20px;
+
     
 }
+
 
 .hero ul {
     display: flex;
     justify-content: center;
-    
+position: sticky;
+top: 0;
+background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4));
 }
+
 
 .ban ul li {
     list-style: none;
     margin: 20px 35px;
     position: relative;
+    
     
 
 }
@@ -30,6 +36,7 @@
     text-transform: uppercase;
     color: lightgray; 
     /* position: relative; */
+    
 }
 
 .hero {
@@ -41,8 +48,9 @@
     /* width: 1000px; */
     background-repeat: no-repeat;
     margin: 0;
-    /* margin-bottom: 10px; */
-    /* margin-top: -100px; */
+    /* margin-bottom: 100px; */
+    /* margin-top: 100px; */
+    /* padding-bottom: 80px; */
 }.heading{
     color: white;
     text-align: center;
@@ -67,16 +75,19 @@
 .pic{
     border-radius: 50%;
     width: 50px;
-    margin-left: 500px;
-    margin-top: 70px;
-    
+    /* padding-top: 20px; */
+
+
+
+    }
+
+.mya{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    gap: 20px;
 }
-.pic2{
-    border-radius: 50%;
-    width: 50px;
-    margin-left: 40px;
-    margin-top: 70px;
-}
+
  .ban ul li::after{
     content: '';
         height: 3px;
@@ -344,3 +355,121 @@ form input, form textarea{
 .copyright i{
     color: #ff004f;
 }
+
+
+@media only screen and (max-width:600px){
+
+.hero{
+    width: 100%;
+    /* padding-left: 200px; */
+    /* padding-right: 100px; */
+    
+    
+}
+.heading{
+    font-size: 15px;
+}
+.two{
+    font-size: 10px;
+}
+.three{
+    font-size: 8px;
+}
+ .ban ul li a{
+    font-size: 8px;
+    /* margin-right: 5px; */
+}
+.ban ul li{
+    margin: 20px;
+}
+.pic{
+    width: 30px;
+}
+.heading2{
+    font-size: 15px;
+    /* padding-left: 200px; */
+}
+.main h2{
+    font-size: 15px;
+    padding-left: 0px;
+}
+.mypara{
+    font-size: 7px;
+    padding-left: 0px;
+}
+.myimg{
+    width: 60px;
+    height: 20vh;
+    border-radius: 6px;
+    margin-top: 30px;
+    margin-right: 10px;
+}
+.name div{
+    font-size: 8px;
+    margin-right:80px;
+    margin-top: 1px ;
+  margin-bottom: 0px;
+  
+    
+}
+.name{
+    margin-top: 30px;
+
+}
+.work{
+    flex-wrap: wrap;
+}
+.btn{
+    font-size: 8px;
+}
+#contact{
+    padding-top: 20px;
+    /* width: 100%; */
+}
+.contact-left{
+    font-size: 15px;
+    margin-left: 30px;
+    width: 100%;
+}
+.contact-left p i{
+    font-size: 12px;
+    /* margin-right: -200px; */
+
+
+}
+.contact-left p{
+    /* margin-top: 200px; */
+
+    font-size: 10px;
+}
+form input, form textarea{
+    width: 85%;
+}
+.row{
+    margin-left: -20px;
+}
+.socialicons{
+display: flex;
+margin-left: 30px;    
+}
+.btn2{
+    /* width: 50px; */
+    /* text-align: center; */
+    padding-left: 30px;
+    padding: 10px;
+    padding-right: 20px;
+    margin-top: -40px;
+    width: 70%;
+    
+}
+.copyright{
+    font-size: 10px;
+    padding: 25px;
+
+}
+.copyright p{
+    margin-top: -10px;
+}
+}
+
+
