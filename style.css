@@ -395,12 +395,13 @@ form input, form textarea{
 }
 .mypara{
     font-size: 7px;
-    padding-right: 10px;
+    /* padding-right: 10px; */
     width: 100%;
+
     
 }
 .run{
-    margin-left: -15px
+    /* margin-left: 10px */
 }
 .myimg{
     width: 60px;
@@ -414,6 +415,8 @@ form input, form textarea{
     margin-right:10px;
     margin-top: 1px ;
   margin-bottom: 0px;
+  /* width: 100%; */
+  /* margin-left: -px; */
   
     
 }
