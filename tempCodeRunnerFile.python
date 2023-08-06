@@ -1,0 +1,10 @@
+def greet(n):
+    i=0
+    if n>i:
+        while i<n:
+             print("sami we miss you")
+             i=i+1
+    else:print("error")
+    return("k*20")
+x=greet(-1)
+print(x)
