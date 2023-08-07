@@ -142,7 +142,7 @@
 .heading2{
     text-align: center;
     color: #ff004f;
-    text-decoration: underline #ababab ;
+    /* text-decoration: underline #ababab ; */
     letter-spacing: 3px;
     
 
@@ -193,7 +193,7 @@
     padding-left: 10px;
     margin-top: 20px;
     /* justify-content: space-between; */
-    text-decoration: underline grey 2px ;
+    /* text-decoration: underline grey 2px ; */
     padding-bottom: 10px;
     padding-top: -70px;
     /* margin-left: -200px;     */
@@ -413,6 +413,13 @@ form input, form textarea{
 }
 .copyright i{
     color: #ff004f;
+}
+#second-last{
+    width: 80%;
+    /* padding: 0px; */
+    margin:0 auto;
+    height: 23vh;
+    flex-wrap: wrap;
 }
 
 
